@@ -8,7 +8,7 @@ Este repositório contém um conjunto de scripts para a conclusão de um trabalh
 os usuários podem criar e `editar páginas de artigos`  cobrindo vários tópicos. Cada página de artigo pode conter texto formatado, imagens e links relevantes.
 
 ### 2. Sistema de Edição Colaborativa
-O projeto utiliza um `sistema de edição colaborativa` , permitindo que vários usuários contribuam para o conteúdo de um artigo.
+O projeto utiliza um `sistema de edição colaborativa`  , permitindo que vários usuários contribuam para o conteúdo de um artigo.
 
 ### 3. Pesquisa de artigos
 Os `usuários podem pesquisar`  artigos existentes usando a barra de pesquisa integrada.
