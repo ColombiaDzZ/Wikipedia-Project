@@ -1,0 +1,237 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    overflow-y: unset;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(209, 209, 209);
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(191, 191, 191);
+    border-radius: 3px;
+    border: 20px solid rgb(255, 0, 0);
+}
+
+ul { 
+    list-style: none; padding-left: 5px;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    margin-top: 5%;
+    margin-left: 85%;
+}
+
+.anchors li a {
+    color: black;
+    font-size: 19px;
+}
+
+.anchors li a:hover {
+    color: rgb(0, 98, 255);
+    font-size: 19px;
+}
+
+.options a {
+    margin-top: 110px;
+    margin-left: -580%;
+    color: rgb(0, 106, 255);
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+footer {
+    background-color: red;
+    width: 48%;
+    height: 57px;
+    margin-top: -3%;
+    margin-left: 26%;
+    border-radius: 5px;
+    border-color: rgba(198, 247, 0, 0);
+}
+
+footer .container {
+
+    font-family: 'Lexend';
+    color: rgb(0, 0, 0);
+    width: 50%;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Arial' sans-serif;
+    width: 195%;
+}
+
+.container p a {
+    font-family: 'Arial' sans-serif;
+    color: white;
+}
+
+.container p a:hover {
+    color: rgb(0, 119, 255);
+}
+
+/* ==================================== */
+
+/* NEW CSS */
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 15px; /* ajuste conforme necessário */
+    left: 20px; /* ajuste conforme necessário */
+}
+
+header img {
+    width: 50px; /* largura fixa */
+    height: auto; /* altura automática para manter a proporção */
+}
+
+/* ==================================== */ 
+header h2 {
+    font-size: 20px;
+    color: #000;
+    margin-top: -46px;
+    margin-left: 55px;
+}
+
+header h3 {
+    font-size: 15px;
+    margin-top: -18px;
+    margin-left: 55px;
+}
+
+/* ==================================== */
+
+.search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    margin-top: 50px;
+    margin-left: 520px;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    display: flex;
+}
+
+.search-box {
+    flex: 1;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: #0080ff;
+}
+
+.content h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+
+.content .sidebar h2 {
+    width: 100%;
+    font-size: 20px;
+    color: #202122;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.content h3 {
+    width: 100%;
+    font-size: 17px;
+    color: #202122;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+ul li a { 
+    color: #000;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+ul li a:hover { 
+    color: #ff0000;
+
+}
+
+main a {
+    color: rgb(0,92,255);
+}
+
+main a:hover {
+    color: red;
+}
+
+main h1 {
+    margin-top: -150%;
+}
+
+main {
+    position: relative; /* Adicionei esta linha para criar um contexto de posicionamento para a imagem */
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    position: center;
+    margin-top: 1%; /* Ajuste conforme necessário */
+    left: 102%; /* Ajuste conforme necessário */
+    border-style: solid;
+    border-radius: 10px;
+    border-color: red;
+}
+
+main video {
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: red;
+}
